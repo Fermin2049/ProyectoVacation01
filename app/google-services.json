@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205533048173",
+    "project_id": "proyectvacaciones",
+    "storage_bucket": "proyectvacaciones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205533048173:android:33dfdbbae2e18f953ffe64",
+        "android_client_info": {
+          "package_name": "com.fermin2049.proyectvacaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-yVeUs8MlabYxpf36pqbzi81sjofVX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
