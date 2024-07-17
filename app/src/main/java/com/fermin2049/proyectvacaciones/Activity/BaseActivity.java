@@ -1,4 +1,4 @@
-package com.fermin2049.proyectvacaciones;
+package com.fermin2049.proyectvacaciones.Activity;
 
 import android.os.Bundle;
 import android.view.Window;
@@ -10,12 +10,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class BaseActivity extends AppCompatActivity {
+import com.google.firebase.database.FirebaseDatabase;
 
+public class BaseActivity extends AppCompatActivity {
+    FirebaseDatabase database;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+
+        database = FirebaseDatabase.getInstance();
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
