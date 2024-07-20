@@ -1,6 +1,10 @@
 package com.fermin2049.proyectvacaciones.Domain;
 
-public class ItemDomain {
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
+public class ItemDomain implements Serializable {
     private String title;
     private String address;
     private String description;
