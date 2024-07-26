@@ -145,8 +145,8 @@
                             android:text="Time"
                             android:textColor="@color/darckblue"
                             android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="@+id/textView18"
-                            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+                            app:layout_constraintStart_toStartOf="@+id/textView23"
+                            app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
                         <TextView
                             android:id="@+id/textView21"
@@ -162,21 +162,22 @@
                             android:id="@+id/timeTxt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:text="00"
                             android:textColor="@color/darckblue"
                             android:textStyle="bold"
                             app:layout_constraintStart_toStartOf="@+id/textView21"
-                            app:layout_constraintTop_toTopOf="@+id/tourGuideTxt" />
+                            app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
                         <TextView
                             android:id="@+id/textView23"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="8dp"
                             android:text="Tip Duration"
                             android:textColor="@color/darckblue"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/tourGuideTxt" />
+                            app:layout_constraintStart_toStartOf="@+id/durationTxt"
+                            app:layout_constraintTop_toBottomOf="@+id/durationTxt" />
 
                         <TextView
                             android:id="@+id/durationTxt"
@@ -186,18 +187,20 @@
                             android:text="-"
                             android:textColor="@color/darckblue"
                             android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+                            app:layout_constraintStart_toStartOf="@+id/textView18"
+                            app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
                         <TextView
                             android:id="@+id/textView25"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
                             android:text="Total Guest"
                             android:textColor="@color/darckblue"
+                            app:layout_constraintBottom_toTopOf="@+id/guestTxt"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="@+id/textView21"
+                            app:layout_constraintStart_toStartOf="@+id/timeTxt"
                             app:layout_constraintTop_toBottomOf="@+id/timeTxt" />
 
                         <TextView

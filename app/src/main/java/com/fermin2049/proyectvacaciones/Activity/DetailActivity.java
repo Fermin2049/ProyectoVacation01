@@ -46,7 +46,9 @@ public class DetailActivity extends AppCompatActivity {
         binding.addToCartBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent = new Intent(DetailActivity.this,)
+                Intent intent = new Intent(DetailActivity.this,TicketActivity.class);
+                intent.putExtra("object",objet);
+                startActivity(intent);
             }
         });
     }
